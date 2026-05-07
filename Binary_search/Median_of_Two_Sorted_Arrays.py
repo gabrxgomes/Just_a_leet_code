@@ -11,7 +11,7 @@ class Solution(object):
         #merged = sorted(nums1 + nums2)
 
         #well the first thing is to define an variable for receiving the merged array, then containing (nums1 + nums2)
-        
+        merged = sorted(nums1 + nums2)
 
 
         
