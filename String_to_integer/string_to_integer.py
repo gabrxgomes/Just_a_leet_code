@@ -20,10 +20,10 @@ class Solution(object):
 
         result = result * sign #apply the sign to the result
 
-        if result < -2147483648:
+        if result < -2147483648: #if the result is less than -2^31 then we need to return -2^31 because that is the minimum value for a 32-bit signed integer
             return -2147483648
 
-        if result > 2147483647:
+        if result > 2147483647:#if the result is greater than 2^31 - 1 then we need to return 2^31 - 1 because that is the maximum value for a 32-bit signed integer
             return 2147483647
 
         return result
