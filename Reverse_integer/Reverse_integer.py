@@ -14,6 +14,7 @@ class Solution(object):
         reversed_int = sign * int(reversed_str)
 
         if reversed_int < -2**31 or reversed_int > 2**31 - 1:
+            
             return 0
 
         return reversed_int
