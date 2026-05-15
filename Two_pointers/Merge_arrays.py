@@ -1,4 +1,4 @@
-class Solution(objetct):
+class Solution(object):
     def merge(self, nums1, nums2):
         left, right = 0
         result = []
